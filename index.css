@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+/* Pagina completa */
+body{
+  height:665px;
+  background-image : url('fondo.jpg');
+}
+/* Barra Nevagacion */
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: transparent;
+  color: rgb(119, 113, 113);
+}
+
+/* Icono Navb*/
+.brand img {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  height: 80px;
+  width: 80px;
+}
+
+.cuerpo{
+  width:1000px;
+  margin:0px auto;
+}
+
+.imgRedonda {
+  width:300px;
+  height:300px;
+  border-radius:150px;
+  border:10px solid #666;
+}
+.div1{
+  height: auto;
+  width: auto;
+  border-radius: 25px;
+}
+
